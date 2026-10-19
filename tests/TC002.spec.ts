@@ -18,4 +18,5 @@ console.log("Login completed");
 await page.getByRole('link', {name: 'Logout'}).click();
 await page.waitForTimeout(3000);
 console.log("Logout completed");
+console.log("Logout Done");
 });
